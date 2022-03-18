@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_info_daily_reports",
+  "info": {
+    "displayName": "Daily reports",
+    "icon": "calendar-check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "EN_Title": {
+      "type": "string"
+    },
+    "UA_Title": {
+      "type": "string"
+    },
+    "DE_Title": {
+      "type": "string"
+    },
+    "JP_Title": {
+      "type": "string"
+    },
+    "EN_Description": {
+      "type": "text"
+    },
+    "UA_Description": {
+      "type": "text"
+    },
+    "DE_Description": {
+      "type": "text"
+    },
+    "JP_Description": {
+      "type": "text"
+    },
+    "PDF": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "UA_Date": {
+      "type": "string"
+    },
+    "EN_Date": {
+      "type": "string"
+    },
+    "DE_Date": {
+      "type": "string"
+    },
+    "JP_Date": {
+      "type": "string"
+    }
+  }
+}

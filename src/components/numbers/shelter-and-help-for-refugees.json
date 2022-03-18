@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_numbers_shelter_and_help_for_refugees",
+  "info": {
+    "displayName": "Shelter and help for refugees",
+    "icon": "chart-pie"
+  },
+  "options": {},
+  "attributes": {
+    "People_found_shelter": {
+      "type": "decimal",
+      "default": 1011,
+      "required": true
+    },
+    "Children_found_shelter": {
+      "type": "decimal",
+      "required": true,
+      "default": 345
+    },
+    "People_got_psychological_help": {
+      "type": "decimal",
+      "required": true,
+      "default": 54
+    },
+    "People_living_in_the_shelter_now": {
+      "type": "decimal",
+      "required": true,
+      "default": 150
+    }
+  }
+}

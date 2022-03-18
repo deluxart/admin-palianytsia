@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "palianytsia_com_uas",
+  "info": {
+    "singularName": "palianytsia-com-ua",
+    "pluralName": "palianytsia-com-uas",
+    "displayName": "Palianytsia.com.ua",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "numbers_for_landing": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "numbers.numbers",
+      "required": true
+    },
+    "Daily_reports": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "info.daily-reports"
+    },
+    "Shelter_and_help_for_efugees": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "numbers.shelter-and-help-for-refugees"
+    },
+    "Humanitarian_aid": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "numbers.humanitarian-aid"
+    }
+  }
+}

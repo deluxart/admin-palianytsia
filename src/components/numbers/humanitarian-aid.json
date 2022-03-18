@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_numbers_humanitarian_aids",
+  "info": {
+    "displayName": "Humanitarian aid",
+    "icon": "chart-bar"
+  },
+  "options": {},
+  "attributes": {
+    "Tons_of_food_delivered": {
+      "type": "decimal",
+      "required": true,
+      "default": 2039
+    },
+    "Pallets_of_clothing_brought": {
+      "type": "decimal",
+      "default": 1002,
+      "required": true
+    },
+    "Boxes_of_medicine_delivered": {
+      "type": "decimal",
+      "required": true,
+      "default": 14631
+    },
+    "Portions_of_food_cooked": {
+      "type": "decimal",
+      "required": true,
+      "default": 11785
+    }
+  }
+}
